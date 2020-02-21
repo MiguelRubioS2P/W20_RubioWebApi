@@ -66,6 +66,14 @@ namespace W20_RubioWebApi.Controllers
             };
         }
 
+        // GET api/Account/UserId
+        [HostAuthentication(DefaultAuthenticationTypes.ExternalBearer)]
+        [Route("UserId")]
+        public string GetUserId()
+        {
+            return RequestContext.Principal.Identity.GetUserId();
+        }
+
         // POST api/Account/Logout
         [Route("Logout")]
         public IHttpActionResult Logout()
