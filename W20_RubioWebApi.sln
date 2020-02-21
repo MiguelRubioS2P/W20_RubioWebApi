@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29318.209
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "W20_RubioWebApi", "W20_RubioWebApi\W20_RubioWebApi.csproj", "{81EFF4DD-1753-44D7-8E92-A97F7C47F01A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81EFF4DD-1753-44D7-8E92-A97F7C47F01A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81EFF4DD-1753-44D7-8E92-A97F7C47F01A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81EFF4DD-1753-44D7-8E92-A97F7C47F01A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81EFF4DD-1753-44D7-8E92-A97F7C47F01A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EFB14E1F-7F16-487B-934B-7363B41C10D6}
+	EndGlobalSection
+EndGlobal
